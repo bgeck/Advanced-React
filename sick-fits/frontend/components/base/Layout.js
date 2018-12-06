@@ -11,11 +11,13 @@ const Layout = props => {
 
   return (
     <Fragment>
-      {styles}
       <Meta />
+
       <Header />
       {children}
       <Footer />
+
+      {styles}
     </Fragment>
   )
 }
