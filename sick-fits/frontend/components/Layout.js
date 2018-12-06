@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import Header from './Header'
-import Footer from './Footer'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
 
-const Layout = (props) => {
+const Layout = props => {
   const { children } = props
   return (
     <Fragment>

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import App, { Container } from 'next/app'
-import Layout from '../components/Layout'
+import Layout from 'components/Layout'
 
 export default class Portal extends App {
   render() {

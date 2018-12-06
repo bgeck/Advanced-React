@@ -11,14 +11,7 @@
       "babel-module": {
         "root": ["./"],
         "alias": {
-          "components": "./components",
-          "templates": "./components/templates",
-          "shared": "./components/shared",
-          "utils": "./utils",
-          "assets": "./assets",
-          "data": "./data",
-          "hocs": "./components/hocs"
-        }
+          "components": "./components"
       }
     }
   },
