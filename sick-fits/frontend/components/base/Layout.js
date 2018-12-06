@@ -1,12 +1,18 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import Header from 'components/Header'
-import Footer from 'components/Footer'
+import Meta from 'components/base/Meta'
+import Header from 'components/base/Header'
+import Footer from 'components/base/Footer'
+import styler from 'components/styles/Global'
 
 const Layout = props => {
+  const { styles } = styler(props)
   const { children } = props
+
   return (
     <Fragment>
+      {styles}
+      <Meta />
       <Header />
       {children}
       <Footer />
