@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const index = props => <div>Hey!</div>
+const Content = props => <div>Hey!</div>
 
-index.propTypes = {}
+Content.propTypes = {}
 
-export default index
+export default Content
